@@ -13,8 +13,8 @@ const codes = [
 
 function init() {
   // your code here
-  const input = document.querySelector('input')
-  input.addEventListener("keydown", (event) => {
+  
+  document.body.addEventListener("keydown", (event) => {
   // Now, how can we check for which specific key was pressed?
   alert("Hurray!" + event.key + "was pressed")
 })
