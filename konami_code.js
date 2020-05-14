@@ -22,10 +22,10 @@ function init() {
   if(event.key === codeCompare[0]){
     codeCompare.shift()
     if(codeCompare === null){
-      
+
     }
   }
-  
-  
+
+
 })
 }
