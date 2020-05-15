@@ -29,6 +29,7 @@ function init() {
       return true;
     }
   } else{
+    console.log("not correct")
     return false;
   }
 
