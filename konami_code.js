@@ -25,7 +25,7 @@ function init() {
     console.log(codeCompare.length)
 
     if(codeCompare.length === 0){
-      console.log("correct")
+      alert("correct")
       return true;
     }
   } else{
