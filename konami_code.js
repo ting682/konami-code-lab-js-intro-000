@@ -19,6 +19,7 @@ function init() {
   console.log( event.key + " was pressed")
   const key = event.key
   var codeCompare = codes
+  debugger
   if(event.key === codeCompare[0]){
     codeCompare.shift()
     console.log(codeCompare.length)
@@ -29,8 +30,6 @@ function init() {
   } else{
     return false;
   }
-
-
 
 })
 }
