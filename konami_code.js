@@ -19,7 +19,7 @@ function init() {
   console.log( event.key + " was pressed")
   const key = event.key
   var codeCompare = codes
-  debugger
+  //debugger
   if(event.key === codeCompare[0]){
     codeCompare.shift()
     console.log(codeCompare.length)
