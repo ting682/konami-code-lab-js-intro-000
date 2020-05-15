@@ -26,7 +26,10 @@ function init() {
     if(codeCompare.length === 0){
       return true;
     }
+  } else{
+    return false;
   }
+  
 
 
 })
