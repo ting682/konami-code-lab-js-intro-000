@@ -22,7 +22,7 @@ function init() {
   if(event.key === codeCompare[0]){
     codeCompare.shift()
     console.log(codeCompare)
-    if(codeCompare === []){
+    if(codeCompare[0] === []){
       return true;
     }
   }
