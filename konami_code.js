@@ -22,7 +22,7 @@ function init() {
   if(event.key === codeCompare[0]){
     codeCompare.shift()
     console.log(codeCompare.length)
-    debugger
+    
     if(codeCompare.length === 0){
       return true;
     }
