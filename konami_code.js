@@ -21,8 +21,9 @@ function init() {
   var codeCompare = codes
   if(event.key === codeCompare[0]){
     codeCompare.shift()
+    console.log(codeCompare)
     if(codeCompare === null){
-
+      return true;
     }
   }
 
